@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.intellitasker">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="IntelliTasker"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="info.androidhive.intellitasker.activities.EnterInfo"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="info.androidhive.intellitasker.activities.ShowNotification"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="info.androidhive.intellitasker.activities.ShowProfile"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="info.androidhive.intellitasker.activities.SuggestTime"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <activity
+            android:name="info.androidhive.intellitasker.activities.SignUp"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <activity
+            android:name="info.androidhive.intellitasker.activities.HomePage"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+
+        <activity
+            android:name="info.androidhive.intellitasker.activities.PageZero"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity
+            android:name="info.androidhive.intellitasker.activities.SignIn"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <activity
+            android:name="info.androidhive.intellitasker.activities.MeetFriend"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+        </activity>
+
+        <activity
+            android:name=".All_Grouptask_View"
+            android:label="grouptask" >
+
+        </activity>
+        <activity
+            android:name=".allgrouptask"
+            android:label="allgrouptask" >
+
+        </activity>
+        <activity
+            android:name=".All_members_view"
+            android:label="Members" >
+        </activity>
+        <activity
+            android:name=".createnewmember"
+            android:label="createnewmember" >
+        </activity>
+        <activity
+            android:name=".All_taskname_view"
+            android:label="alltask" >
+        </activity>
+        <activity
+            android:name=".datepicker"
+            android:label="datepicker" >
+        </activity>
+        <activity
+            android:name=".createnewgroup"
+            android:label="createnewgroup" >
+        </activity>
+        <activity
+            android:name=".myTaskView"
+            android:label="createnewgroup" >
+        </activity>
+        <activity
+            android:name=".timepicker"
+            android:label="timepicker" >
+
+        </activity>
+        <activity
+            android:name=".addmember"
+            android:label="creategrouptask" >
+
+        </activity>
+        <activity
+            android:name=".assigntask"
+            android:label="creategrouptask" >
+
+        </activity>
+
+    </application>
+
+</manifest>
